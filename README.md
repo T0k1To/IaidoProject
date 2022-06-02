@@ -2,7 +2,7 @@
   <img src="https://vsoch.github.io/assets/images/posts/learning-go/gophercises_jumping.gif" width="420" height="440">
 </p>
 
-	                             A Simple Backdoor Written in Go
+	               A Simple Backdoor Written in Go
 
 ---
 
